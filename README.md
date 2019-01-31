@@ -8,13 +8,13 @@ In the `protocols` folder, we described 16 protocols as infrastructures to build
 
 Files `GTP_stack.py`, `IP_TCP_stack.py`, `PPTP_stack.py` and `QUIC_stack.py` refer individual protocols from `protocols` folder, organize the stack's hierarchy and define customized events.
 
-Since we have not released the compiler to convert Python code to C code, we are sorry about that you cannot play around with the Python code. However, we provide you with compiled C code and capture examples to demonstrate these four network stacks.
+Since we have **not released the compiler** to convert Python code to C code, we are sorry about that you cannot play around with the Python code. However, we provide you with compiled C code and capture examples to demonstrate these four network stacks.
 
 Back-end C code
 ---
 In the `compilation` folder, we placed four network stack with required libraries but `libpcap`. Therefore, if you have not installed it, please refer [this](https://www.tcpdump.org) to install `libpcap` at first.
 
-### Compilation
+### Usage
 Assume you want to check out the PPTP network stack.
 First, enter the `compilation` folder. Then
 ```Shell
